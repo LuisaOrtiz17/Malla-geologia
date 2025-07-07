@@ -1,0 +1,453 @@
+{
+  "asignaturas": [
+    {
+      "codigo": "GEOL101",
+      "nombre": "Fundamentos de Geología",
+      "semestre": 1,
+      "prerrequisitos": [],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "GEQ101",
+      "nombre": "Introducción a la Geoquímica",
+      "semestre": 1,
+      "prerrequisitos": [],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "MAT101",
+      "nombre": "Cálculo 1",
+      "semestre": 1,
+      "prerrequisitos": [],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "MAT111",
+      "nombre": "Álgebra 1",
+      "semestre": 1,
+      "prerrequisitos": [],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "FIS101",
+      "nombre": "Introducción a la Física",
+      "semestre": 1,
+      "prerrequisitos": [],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "GEN101",
+      "nombre": "Identidad y Universidad",
+      "semestre": 1,
+      "prerrequisitos": [],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "GEOL102",
+      "nombre": "Fundamentos de Geología II",
+      "semestre": 2,
+      "prerrequisitos": [
+        "GEOL101"
+      ],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "GEOL201",
+      "nombre": "Mineralogía y Cristalografía",
+      "semestre": 2,
+      "prerrequisitos": [],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "MAT102",
+      "nombre": "Cálculo 2",
+      "semestre": 2,
+      "prerrequisitos": [
+        "MAT101"
+      ],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "MAT112",
+      "nombre": "Álgebra 2",
+      "semestre": 2,
+      "prerrequisitos": [
+        "MAT111"
+      ],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "FIS102",
+      "nombre": "Mecánica",
+      "semestre": 2,
+      "prerrequisitos": [
+        "FIS101"
+      ],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "GEN102",
+      "nombre": "Desarrollo de Competencias Interpersonales",
+      "semestre": 2,
+      "prerrequisitos": [],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "GEOL301",
+      "nombre": "Cartografía",
+      "semestre": 3,
+      "prerrequisitos": [],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "GEOL302",
+      "nombre": "Petrografía Macroscópica",
+      "semestre": 3,
+      "prerrequisitos": [
+        "GEOL201"
+      ],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "EST101",
+      "nombre": "Estadística",
+      "semestre": 3,
+      "prerrequisitos": [],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "MAT201",
+      "nombre": "Ecuaciones Diferenciales",
+      "semestre": 3,
+      "prerrequisitos": [
+        "MAT102"
+      ],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "FIS201",
+      "nombre": "Electricidad y Óptica",
+      "semestre": 3,
+      "prerrequisitos": [
+        "FIS102"
+      ],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "GEN103",
+      "nombre": "Comprensión Lectora Científica",
+      "semestre": 3,
+      "prerrequisitos": [],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "GEOL401",
+      "nombre": "Geología Estructural",
+      "semestre": 4,
+      "prerrequisitos": [
+        "GEOL301"
+      ],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "GEOL402",
+      "nombre": "Mineralogía Óptica",
+      "semestre": 4,
+      "prerrequisitos": [
+        "GEOL201"
+      ],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "GEQ201",
+      "nombre": "Geoquímica 1",
+      "semestre": 4,
+      "prerrequisitos": [
+        "GEQ101"
+      ],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "EST201",
+      "nombre": "Geoestadística",
+      "semestre": 4,
+      "prerrequisitos": [
+        "EST101"
+      ],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "INF101",
+      "nombre": "Programación",
+      "semestre": 4,
+      "prerrequisitos": [],
+      "estado": "aprobado"
+    },
+    {
+      "codigo": "GEN104",
+      "nombre": "Diálogo Fe y Cultura",
+      "semestre": 4,
+      "prerrequisitos": [],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEOL501",
+      "nombre": "Petrología Ígnea",
+      "semestre": 5,
+      "prerrequisitos": [
+        "GEOL302"
+      ],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEOL502",
+      "nombre": "Petrología Metamórfica",
+      "semestre": 5,
+      "prerrequisitos": [
+        "GEOL302"
+      ],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEQ301",
+      "nombre": "Geoquímica 2",
+      "semestre": 5,
+      "prerrequisitos": [
+        "GEQ201"
+      ],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEOL503",
+      "nombre": "Petrología Sedimentaria",
+      "semestre": 5,
+      "prerrequisitos": [
+        "GEOL302"
+      ],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEN105",
+      "nombre": "Diálogo, Fe y Ciencia",
+      "semestre": 5,
+      "prerrequisitos": [],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "IDI101",
+      "nombre": "Inglés 1",
+      "semestre": 5,
+      "prerrequisitos": [],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEOL601",
+      "nombre": "Depósitos Minerales",
+      "semestre": 6,
+      "prerrequisitos": [
+        "GEOL501"
+      ],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEOL602",
+      "nombre": "Teledetección",
+      "semestre": 6,
+      "prerrequisitos": [],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEOL603",
+      "nombre": "Estratigrafía",
+      "semestre": 6,
+      "prerrequisitos": [
+        "GEOL503"
+      ],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEOL604",
+      "nombre": "Paleontología",
+      "semestre": 6,
+      "prerrequisitos": [
+        "GEOL503"
+      ],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "IDI102",
+      "nombre": "Inglés 2",
+      "semestre": 6,
+      "prerrequisitos": [
+        "IDI101"
+      ],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEOL701",
+      "nombre": "Metalogénesis Andina",
+      "semestre": 7,
+      "prerrequisitos": [
+        "GEOL601"
+      ],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEOL702",
+      "nombre": "Hidrogeología",
+      "semestre": 7,
+      "prerrequisitos": [],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEOL703",
+      "nombre": "Geología de Campo 1",
+      "semestre": 7,
+      "prerrequisitos": [
+        "GEOL603"
+      ],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEOL704",
+      "nombre": "Geología de Chile",
+      "semestre": 7,
+      "prerrequisitos": [],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "IDI103",
+      "nombre": "Inglés 3",
+      "semestre": 7,
+      "prerrequisitos": [
+        "IDI102"
+      ],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEOL801",
+      "nombre": "Geología de Minas",
+      "semestre": 8,
+      "prerrequisitos": [
+        "GEOL701"
+      ],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "ADM801",
+      "nombre": "Economía y Evaluación de Proyectos",
+      "semestre": 8,
+      "prerrequisitos": [],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEOL802",
+      "nombre": "Geología de Campo 2",
+      "semestre": 8,
+      "prerrequisitos": [
+        "GEOL703"
+      ],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEN201",
+      "nombre": "Formación General Electiva 1",
+      "semestre": 8,
+      "prerrequisitos": [],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "IDI104",
+      "nombre": "Inglés 4",
+      "semestre": 8,
+      "prerrequisitos": [
+        "IDI103"
+      ],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "ELEC901",
+      "nombre": "Profesional Electivo 1",
+      "semestre": 9,
+      "prerrequisitos": [],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "ELEC902",
+      "nombre": "Profesional Electivo 2",
+      "semestre": 9,
+      "prerrequisitos": [],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "ELEC903",
+      "nombre": "Profesional Electivo 3",
+      "semestre": 9,
+      "prerrequisitos": [],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEN202",
+      "nombre": "Formación General Electiva 2",
+      "semestre": 9,
+      "prerrequisitos": [],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEN106",
+      "nombre": "Ética Profesional",
+      "semestre": 9,
+      "prerrequisitos": [],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "ELEC1001",
+      "nombre": "Profesional Electivo 4",
+      "semestre": 10,
+      "prerrequisitos": [],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "ELEC1002",
+      "nombre": "Profesional Electivo 5",
+      "semestre": 10,
+      "prerrequisitos": [],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "ELEC1003",
+      "nombre": "Profesional Electivo 6",
+      "semestre": 10,
+      "prerrequisitos": [],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEN301",
+      "nombre": "Metodología de la Investigación",
+      "semestre": 10,
+      "prerrequisitos": [],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEN302",
+      "nombre": "Actividad de Titulación",
+      "semestre": 10,
+      "prerrequisitos": [],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "GEN303",
+      "nombre": "Desarrollo de Competencias Laborales",
+      "semestre": 10,
+      "prerrequisitos": [],
+      "estado": "pendiente"
+    },
+    {
+      "codigo": "PRACT",
+      "nombre": "Práctica",
+      "semestre": 10,
+      "prerrequisitos": [],
+      "estado": "pendiente"
+    }
+  ]
+}
