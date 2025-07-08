@@ -1,59 +1,46 @@
 
-fetch("malla_geologia_completa.json")
-  .then(res => res.json())
+let estadoUsuario = JSON.parse(localStorage.getItem("estado_malla") || "{}");
+
+function filtrar(estado) {
+  document.querySelectorAll(".asignatura").forEach(div => {
+    div.style.display = (estado === 'todos' || div.dataset.estado === estado) ? "block" : "none";
+  });
+}
+
+fetch("malla_geologia.json")
+  .then(r => r.json())
   .then(data => {
-    const container = document.getElementById("malla-container");
-    const estadosGuardados = JSON.parse(localStorage.getItem("estados_malla") || "{}");
+    const contenedor = document.getElementById("malla-container");
+    let total = data.asignaturas.length;
+    let aprobados = 0;
 
-    const porSemestre = {};
+    data.asignaturas.forEach(ramo => {
+      const div = document.createElement("div");
+      const estado = estadoUsuario[ramo.codigo] || ramo.estado;
+      div.className = `asignatura ${estado} ${ramo.area}`;
+      div.dataset.estado = estado;
+      div.innerHTML = `<strong>${ramo.nombre}</strong><br>${ramo.creditos} créditos`;
 
-    data.asignaturas.forEach(asig => {
-      const estado = estadosGuardados[asig.codigo] || asig.estado;
-      if (!porSemestre[asig.semestre]) porSemestre[asig.semestre] = [];
-      porSemestre[asig.semestre].push({...asig, estado});
+      if (estado === "aprobado") aprobados++;
+      div.onclick = () => {
+        const estados = ["pendiente", "cursando", "aprobado"];
+        let index = estados.indexOf(div.dataset.estado);
+        index = (index + 1) % 3;
+        div.dataset.estado = estados[index];
+        estadoUsuario[ramo.codigo] = estados[index];
+        localStorage.setItem("estado_malla", JSON.stringify(estadoUsuario));
+        div.className = `asignatura ${estados[index]} ${ramo.area}`;
+        actualizarProgreso();
+      };
+
+      contenedor.appendChild(div);
     });
 
-    let total = 0, aprobados = 0;
-
-    Object.keys(porSemestre).sort((a, b) => a - b).forEach(sem => {
-      const col = document.createElement("div");
-      col.className = "semestre";
-      col.innerHTML = `<h2>Semestre ${sem}</h2>`;
-
-      porSemestre[sem].forEach(asig => {
-        total++;
-        if (asig.estado === "aprobado") aprobados++;
-
-        const div = document.createElement("div");
-        div.className = "asignatura " + asig.estado;
-        div.innerText = asig.nombre;
-        div.title = `Código: ${asig.codigo}\nSemestre: ${asig.semestre}\nPrerrequisitos: ${asig.prerrequisitos.join(", ") || "Ninguno"}`;
-
-        div.onclick = () => {
-          const estados = ["pendiente", "cursando", "aprobado"];
-          let idx = estados.indexOf(div.classList[1]);
-          idx = (idx + 1) % estados.length;
-          div.className = "asignatura " + estados[idx];
-          estadosGuardados[asig.codigo] = estados[idx];
-          localStorage.setItem("estados_malla", JSON.stringify(estadosGuardados));
-          updateProgress();
-        };
-
-        col.appendChild(div);
-      });
-
-      container.appendChild(col);
-    });
-
-    function updateProgress() {
-      let aprobados = 0;
-      data.asignaturas.forEach(asig => {
-        const estado = estadosGuardados[asig.codigo] || asig.estado;
-        if (estado === "aprobado") aprobados++;
-      });
-      const porcentaje = (aprobados / data.asignaturas.length) * 100;
-      document.getElementById("progreso").style.width = porcentaje + "%";
+    function actualizarProgreso() {
+      const total = data.asignaturas.length;
+      const aprobados = Object.values(estadoUsuario).filter(e => e === "aprobado").length;
+      document.getElementById("progreso").style.width = `${(aprobados / total) * 100}%`;
     }
 
-    updateProgress();
+    actualizarProgreso();
   });

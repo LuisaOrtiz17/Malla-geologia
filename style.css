@@ -1,85 +1,63 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f9;
   margin: 0;
-  padding: 0;
-  background: #f3f6fa;
-  color: #333;
 }
-
 header {
-  text-align: center;
-  padding: 2rem 1rem;
-  background: #1e88e5;
+  background: #003366;
   color: white;
-  font-size: 1.8rem;
-  font-weight: bold;
-  letter-spacing: 0.5px;
+  padding: 1rem;
+  text-align: center;
 }
+.leyenda {
+  margin-top: 0.5rem;
+}
+.ley {
+  margin-right: 1rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  color: white;
+}
+.geologia { background: #7eb6ff; }
+.matematicas { background: #a67c52; }
+.idiomas { background: #ffe066; color: black; }
+.valores { background: #66bb6a; }
+.practica { background: #555; }
 
 #malla-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
   padding: 2rem;
   gap: 1rem;
-  overflow-x: auto;
 }
-
-.semestre {
-  min-width: 180px;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  padding: 1rem;
-}
-
-.semestre h2 {
-  text-align: center;
-  font-size: 1.1rem;
-  margin-bottom: 1rem;
-  color: #444;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 0.5rem;
-}
-
 .asignatura {
-  border-radius: 8px;
-  margin: 0.5rem 0;
-  padding: 0.6rem;
+  width: 180px;
+  padding: 1rem;
+  border-radius: 10px;
+  background: white;
   text-align: center;
-  font-size: 0.85rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: relative;
   cursor: pointer;
-  transition: transform 0.15s ease;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
 }
-
 .asignatura:hover {
   transform: scale(1.03);
 }
-
-.aprobado { background-color: #c8e6c9; }
-.cursando { background-color: #fff9c4; }
-.pendiente { background-color: #ffcdd2; }
-
-footer {
-  text-align: center;
-  font-size: 0.9rem;
-  padding: 1rem;
-  color: #777;
-}
-
+.aprobado { text-decoration: line-through; opacity: 0.6; }
 #barra-progreso {
-  width: 90%;
+  width: 80%;
   margin: 1rem auto;
   background: #ddd;
+  height: 20px;
   border-radius: 10px;
   overflow: hidden;
-  height: 20px;
 }
 #progreso {
-  background: #66bb6a;
   height: 100%;
+  background: #4caf50;
   width: 0%;
-  transition: width 0.5s ease;
 }
