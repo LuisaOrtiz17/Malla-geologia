@@ -1,0 +1,626 @@
+{
+  "carreras": "Geología UCN",
+  "version": "unificada-2025-08-12",
+  "cursos": [
+    {
+      "id": "GEOL101",
+      "codigo": "GEOL101",
+      "nombre": "Fundamentos de Geología",
+      "creditos": 0,
+      "area": "Geología",
+      "semestre": 1,
+      "prereqs": [],
+      "estado": "cursado"
+    },
+    {
+      "id": "GEQ101",
+      "codigo": "GEQ101",
+      "nombre": "Introducción a la Geoquímica",
+      "creditos": 0,
+      "area": "Geoquímica",
+      "semestre": 1,
+      "prereqs": [],
+      "estado": "cursado"
+    },
+    {
+      "id": "MAT101",
+      "codigo": "MAT101",
+      "nombre": "Cálculo 1",
+      "creditos": 5,
+      "area": "Matemáticas",
+      "semestre": 1,
+      "prereqs": [],
+      "estado": "cursado"
+    },
+    {
+      "id": "MAT111",
+      "codigo": "MAT111",
+      "nombre": "Álgebra 1",
+      "creditos": 0,
+      "area": "Matemáticas",
+      "semestre": 1,
+      "prereqs": [],
+      "estado": "cursado"
+    },
+    {
+      "id": "FIS101",
+      "codigo": "FIS101",
+      "nombre": "Introducción a la Física",
+      "creditos": 0,
+      "area": "Física",
+      "semestre": 1,
+      "prereqs": [],
+      "estado": "cursado"
+    },
+    {
+      "id": "GEN101",
+      "codigo": "GEN101",
+      "nombre": "Identidad y Universidad",
+      "creditos": 0,
+      "area": "Formación",
+      "semestre": 1,
+      "prereqs": [],
+      "estado": "cursado"
+    },
+    {
+      "id": "GEOL102",
+      "codigo": "GEOL102",
+      "nombre": "Fundamentos de Geología II",
+      "creditos": 0,
+      "area": "Geología",
+      "semestre": 2,
+      "prereqs": [
+        "GEOL101"
+      ],
+      "estado": "cursado"
+    },
+    {
+      "id": "GEOL201",
+      "codigo": "GEOL201",
+      "nombre": "Mineralogía y Cristalografía",
+      "creditos": 0,
+      "area": "Geología",
+      "semestre": 2,
+      "prereqs": [],
+      "estado": "cursado"
+    },
+    {
+      "id": "MAT102",
+      "codigo": "MAT102",
+      "nombre": "Cálculo 2",
+      "creditos": 0,
+      "area": "Matemáticas",
+      "semestre": 2,
+      "prereqs": [
+        "MAT101"
+      ],
+      "estado": "cursado"
+    },
+    {
+      "id": "MAT112",
+      "codigo": "MAT112",
+      "nombre": "Álgebra 2",
+      "creditos": 0,
+      "area": "Matemáticas",
+      "semestre": 2,
+      "prereqs": [
+        "MAT111"
+      ],
+      "estado": "cursado"
+    },
+    {
+      "id": "FIS102",
+      "codigo": "FIS102",
+      "nombre": "Mecánica",
+      "creditos": 0,
+      "area": "Física",
+      "semestre": 2,
+      "prereqs": [
+        "FIS101"
+      ],
+      "estado": "cursado"
+    },
+    {
+      "id": "GEN102",
+      "codigo": "GEN102",
+      "nombre": "Desarrollo de Competencias Interpersonales",
+      "creditos": 0,
+      "area": "Formación",
+      "semestre": 2,
+      "prereqs": [],
+      "estado": "cursado"
+    },
+    {
+      "id": "GEOL301",
+      "codigo": "GEOL301",
+      "nombre": "Cartografía",
+      "creditos": 0,
+      "area": "Geología",
+      "semestre": 3,
+      "prereqs": [],
+      "estado": "cursado"
+    },
+    {
+      "id": "GEOL302",
+      "codigo": "GEOL302",
+      "nombre": "Petrografía Macroscópica",
+      "creditos": 0,
+      "area": "Geología",
+      "semestre": 3,
+      "prereqs": [
+        "GEOL201"
+      ],
+      "estado": "cursado"
+    },
+    {
+      "id": "EST101",
+      "codigo": "EST101",
+      "nombre": "Estadística",
+      "creditos": 0,
+      "area": "Matemáticas",
+      "semestre": 3,
+      "prereqs": [],
+      "estado": "cursado"
+    },
+    {
+      "id": "MAT201",
+      "codigo": "MAT201",
+      "nombre": "Ecuaciones Diferenciales",
+      "creditos": 0,
+      "area": "Matemáticas",
+      "semestre": 3,
+      "prereqs": [
+        "MAT102"
+      ],
+      "estado": "cursado"
+    },
+    {
+      "id": "FIS201",
+      "codigo": "FIS201",
+      "nombre": "Electricidad y Óptica",
+      "creditos": 0,
+      "area": "Física",
+      "semestre": 3,
+      "prereqs": [
+        "FIS102"
+      ],
+      "estado": "cursado"
+    },
+    {
+      "id": "GEN103",
+      "codigo": "GEN103",
+      "nombre": "Comprensión Lectora Científica",
+      "creditos": 0,
+      "area": "Formación",
+      "semestre": 3,
+      "prereqs": [],
+      "estado": "cursado"
+    },
+    {
+      "id": "GEOL401",
+      "codigo": "GEOL401",
+      "nombre": "Geología Estructural",
+      "creditos": 0,
+      "area": "Geología",
+      "semestre": 4,
+      "prereqs": [
+        "GEOL301"
+      ],
+      "estado": "cursado"
+    },
+    {
+      "id": "GEOL402",
+      "codigo": "GEOL402",
+      "nombre": "Mineralogía Óptica",
+      "creditos": 0,
+      "area": "Geología",
+      "semestre": 4,
+      "prereqs": [
+        "GEOL201"
+      ],
+      "estado": "cursado"
+    },
+    {
+      "id": "GEQ201",
+      "codigo": "GEQ201",
+      "nombre": "Geoquímica 1",
+      "creditos": 0,
+      "area": "Geoquímica",
+      "semestre": 4,
+      "prereqs": [
+        "GEQ101"
+      ],
+      "estado": "cursado"
+    },
+    {
+      "id": "EST201",
+      "codigo": "EST201",
+      "nombre": "Geoestadística",
+      "creditos": 0,
+      "area": "Matemáticas",
+      "semestre": 4,
+      "prereqs": [
+        "EST101"
+      ],
+      "estado": "cursado"
+    },
+    {
+      "id": "INF101",
+      "codigo": "INF101",
+      "nombre": "Programación",
+      "creditos": 0,
+      "area": "Computación",
+      "semestre": 4,
+      "prereqs": [],
+      "estado": "cursado"
+    },
+    {
+      "id": "GEN104",
+      "codigo": "GEN104",
+      "nombre": "Diálogo Fe y Cultura",
+      "creditos": 0,
+      "area": "Formación",
+      "semestre": 4,
+      "prereqs": [],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEOL501",
+      "codigo": "GEOL501",
+      "nombre": "Petrología Ígnea",
+      "creditos": 0,
+      "area": "Geología",
+      "semestre": 5,
+      "prereqs": [
+        "GEOL302"
+      ],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEOL502",
+      "codigo": "GEOL502",
+      "nombre": "Petrología Metamórfica",
+      "creditos": 0,
+      "area": "Geología",
+      "semestre": 5,
+      "prereqs": [
+        "GEOL302"
+      ],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEQ301",
+      "codigo": "GEQ301",
+      "nombre": "Geoquímica 2",
+      "creditos": 0,
+      "area": "Geoquímica",
+      "semestre": 5,
+      "prereqs": [
+        "GEQ201"
+      ],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEOL503",
+      "codigo": "GEOL503",
+      "nombre": "Petrología Sedimentaria",
+      "creditos": 0,
+      "area": "Geología",
+      "semestre": 5,
+      "prereqs": [
+        "GEOL302"
+      ],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEN105",
+      "codigo": "GEN105",
+      "nombre": "Diálogo, Fe y Ciencia",
+      "creditos": 0,
+      "area": "Formación",
+      "semestre": 5,
+      "prereqs": [],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "IDI101",
+      "codigo": "IDI101",
+      "nombre": "Inglés 1",
+      "creditos": 4,
+      "area": "Idiomas",
+      "semestre": 5,
+      "prereqs": [],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEOL601",
+      "codigo": "GEOL601",
+      "nombre": "Depósitos Minerales",
+      "creditos": 0,
+      "area": "Geología",
+      "semestre": 6,
+      "prereqs": [
+        "GEOL501"
+      ],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEOL602",
+      "codigo": "GEOL602",
+      "nombre": "Teledetección",
+      "creditos": 0,
+      "area": "Geología",
+      "semestre": 6,
+      "prereqs": [],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEOL603",
+      "codigo": "GEOL603",
+      "nombre": "Estratigrafía",
+      "creditos": 0,
+      "area": "Geología",
+      "semestre": 6,
+      "prereqs": [
+        "GEOL503"
+      ],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEOL604",
+      "codigo": "GEOL604",
+      "nombre": "Paleontología",
+      "creditos": 0,
+      "area": "Geología",
+      "semestre": 6,
+      "prereqs": [
+        "GEOL503"
+      ],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "IDI102",
+      "codigo": "IDI102",
+      "nombre": "Inglés 2",
+      "creditos": 0,
+      "area": "Idiomas",
+      "semestre": 6,
+      "prereqs": [
+        "IDI101"
+      ],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEOL701",
+      "codigo": "GEOL701",
+      "nombre": "Metalogénesis Andina",
+      "creditos": 0,
+      "area": "Geología",
+      "semestre": 7,
+      "prereqs": [
+        "GEOL601"
+      ],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEOL702",
+      "codigo": "GEOL702",
+      "nombre": "Hidrogeología",
+      "creditos": 0,
+      "area": "Geología",
+      "semestre": 7,
+      "prereqs": [],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEOL703",
+      "codigo": "GEOL703",
+      "nombre": "Geología de Campo 1",
+      "creditos": 0,
+      "area": "Geología",
+      "semestre": 7,
+      "prereqs": [
+        "GEOL603"
+      ],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEOL704",
+      "codigo": "GEOL704",
+      "nombre": "Geología de Chile",
+      "creditos": 0,
+      "area": "Geología",
+      "semestre": 7,
+      "prereqs": [],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "IDI103",
+      "codigo": "IDI103",
+      "nombre": "Inglés 3",
+      "creditos": 0,
+      "area": "Idiomas",
+      "semestre": 7,
+      "prereqs": [
+        "IDI102"
+      ],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEOL801",
+      "codigo": "GEOL801",
+      "nombre": "Geología de Minas",
+      "creditos": 0,
+      "area": "Geología",
+      "semestre": 8,
+      "prereqs": [
+        "GEOL701"
+      ],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "ADM801",
+      "codigo": "ADM801",
+      "nombre": "Economía y Evaluación de Proyectos",
+      "creditos": 0,
+      "area": "Formación",
+      "semestre": 8,
+      "prereqs": [],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEOL802",
+      "codigo": "GEOL802",
+      "nombre": "Geología de Campo 2",
+      "creditos": 0,
+      "area": "Geología",
+      "semestre": 8,
+      "prereqs": [
+        "GEOL703"
+      ],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEN201",
+      "codigo": "GEN201",
+      "nombre": "Formación General Electiva 1",
+      "creditos": 0,
+      "area": "Formación",
+      "semestre": 8,
+      "prereqs": [],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "IDI104",
+      "codigo": "IDI104",
+      "nombre": "Inglés 4",
+      "creditos": 0,
+      "area": "Idiomas",
+      "semestre": 8,
+      "prereqs": [
+        "IDI103"
+      ],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "ELEC901",
+      "codigo": "ELEC901",
+      "nombre": "Profesional Electivo 1",
+      "creditos": 0,
+      "area": "Electivos",
+      "semestre": 9,
+      "prereqs": [],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "ELEC902",
+      "codigo": "ELEC902",
+      "nombre": "Profesional Electivo 2",
+      "creditos": 0,
+      "area": "Electivos",
+      "semestre": 9,
+      "prereqs": [],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "ELEC903",
+      "codigo": "ELEC903",
+      "nombre": "Profesional Electivo 3",
+      "creditos": 0,
+      "area": "Electivos",
+      "semestre": 9,
+      "prereqs": [],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEN202",
+      "codigo": "GEN202",
+      "nombre": "Formación General Electiva 2",
+      "creditos": 0,
+      "area": "Formación",
+      "semestre": 9,
+      "prereqs": [],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEN106",
+      "codigo": "GEN106",
+      "nombre": "Ética Profesional",
+      "creditos": 0,
+      "area": "Formación",
+      "semestre": 9,
+      "prereqs": [],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "ELEC1001",
+      "codigo": "ELEC1001",
+      "nombre": "Profesional Electivo 4",
+      "creditos": 0,
+      "area": "Electivos",
+      "semestre": 10,
+      "prereqs": [],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "ELEC1002",
+      "codigo": "ELEC1002",
+      "nombre": "Profesional Electivo 5",
+      "creditos": 0,
+      "area": "Electivos",
+      "semestre": 10,
+      "prereqs": [],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "ELEC1003",
+      "codigo": "ELEC1003",
+      "nombre": "Profesional Electivo 6",
+      "creditos": 0,
+      "area": "Electivos",
+      "semestre": 10,
+      "prereqs": [],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEN301",
+      "codigo": "GEN301",
+      "nombre": "Metodología de la Investigación",
+      "creditos": 0,
+      "area": "Formación",
+      "semestre": 10,
+      "prereqs": [],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEN302",
+      "codigo": "GEN302",
+      "nombre": "Actividad de Titulación",
+      "creditos": 0,
+      "area": "Formación",
+      "semestre": 10,
+      "prereqs": [],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "GEN303",
+      "codigo": "GEN303",
+      "nombre": "Desarrollo de Competencias Laborales",
+      "creditos": 0,
+      "area": "Formación",
+      "semestre": 10,
+      "prereqs": [],
+      "estado": "por-cursar"
+    },
+    {
+      "id": "PRACT",
+      "codigo": "PRACT",
+      "nombre": "Práctica",
+      "creditos": 10,
+      "area": "Formación",
+      "semestre": 10,
+      "prereqs": [],
+      "estado": "por-cursar"
+    }
+  ]
+}
